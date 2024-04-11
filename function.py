@@ -1,9 +1,10 @@
 def suma(*num):
    return sum(num)
     
-print(suma(2,2,2,2))
+print(suma(2,2,2,2,5,4,6,7))
 
-name = "erick"
+name = "erick fernando"
 apellido = "santos"
 
-print(name + " " + apellido)
+user = name + apellido
+print(user)
